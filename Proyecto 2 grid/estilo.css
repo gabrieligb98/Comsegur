@@ -10,7 +10,14 @@ body {
     background-image: url(../img/foto\ camara.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 95%;
+    margin:auto;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 .texto {
     color:rgb(197, 193, 144);
@@ -37,7 +44,7 @@ body {
 #menu ul {
     display: grid;
     padding: 0px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25% ;
 }         
 
 #menu ul li {
