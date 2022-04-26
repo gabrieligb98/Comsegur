@@ -155,6 +155,7 @@ a {
 .pie {
     text-align: center;
     color: #999;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -167,24 +168,24 @@ a {
 }*/
 
 .letra_blanca{
-    position: relative;
-    top: 50%;
-    left: 40%;
-    width:300px;
+    font-size: 2rem;
+    display:block;
+    text-align: center;
+
 }
 
 .letra_blanca1{
-    position: relative;
-    top: 50%;
-    left: 49%;
-    width:300px;
+
+    font-size: 2rem;
+    display:block;
+    text-align:center;
 }
 
 .letra_blanca2{
-    position: relative;
-    top: 50%;
-    left: 42%;
-    width:300px;    
+
+    font-size: 2rem;   
+    display:block;
+    text-align:center;
 }
 
 .formulario-contacto {
@@ -227,6 +228,14 @@ outline: none;
     min-height: 100px;       
 }
 
+.submit, .btn {
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px;
+}
+
 textarea {
     width: 270px;
 }
@@ -257,7 +266,10 @@ textarea {
     margin:3% 3% 3% 3%;
     color: rgb(197, 193, 144);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style: none;
 }
+
 
 .somos_comsegur {
     text-align: center;
@@ -305,5 +317,43 @@ textarea {
     height:300px;
     width: 250px;
     transform:rotate(360deg);
+
 }
 
+/* PAGINA ARTICULO */
+
+.catalogo-h2 {
+    text-align:center;
+    font-size: 3rem;
+    color:rgb(197, 193, 144);
+    margin-bottom: 50px;
+}
+
+.cctv {
+    font-size: 2rem;
+    letter-spacing:3px;
+    text-indent:3rem;
+    color:rgb(190, 190, 190);
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 193, 144);   
+    margin-top: 40px;
+    text-align: center;
+}
+
+.imagen-catalogo{
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 16vw;
+}
+
+.descripcion-catalogo {
+    font-size: 2vw;
+    color:rgb(190, 190, 190);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
