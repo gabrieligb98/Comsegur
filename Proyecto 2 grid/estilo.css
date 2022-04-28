@@ -155,7 +155,9 @@ a {
 .pie {
     text-align: center;
     color: #999;
-    margin-top: 50px;
+    margin-top: 100px;
+    bottom: 0;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -327,6 +329,8 @@ textarea {
     font-size: 3rem;
     color:rgb(197, 193, 144);
     margin-bottom: 50px;
+    margin-top: 50px;
+    font-style: oblique;
 }
 
 .cctv {
@@ -355,5 +359,46 @@ textarea {
 
 .container {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 768px) {
+    .container{ 
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .t1 {
+        display: inline-block;
+    }
+    .t2, .t3 {
+        margin-right: 30px;
+    }
+}
+
+
+
+.map {
+    float: left;
+}
+
+.t1 {
+    margin-bottom: 100px;
+    margin-left:15px;
+    color:rgb(190, 190, 190);
+    font-size: 2.5em;
+}
+
+.t2 {
+    margin-top:40px;
+    margin-bottom: 20px;
+    color:rgb(190, 190, 190);
+    font-size: 2.5em;
+    text-align: right;
+}
+
+.t3 {
+    margin-top:40px;
+    margin-bottom: 100px;
+    color:rgb(190, 190, 190);
+    font-size: 2.5em;
+    text-align: right;
 }
