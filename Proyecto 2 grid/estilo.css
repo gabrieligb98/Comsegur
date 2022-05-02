@@ -34,6 +34,10 @@ a {
     margin-bottom: 50px;
 }
 
+a:hover {
+    color:#bd1e3e;
+}
+
 #menu {
     /* background-color: rgb(61, 59, 59); */
     list-style: none;     
@@ -106,6 +110,7 @@ a {
     color:beige;
     text-align:center;
     margin-bottom:20px;
+    margin-left:50px;
 }
 
 .grid-container {
@@ -118,7 +123,7 @@ a {
 .img_producto {
     width: 200px; 
     height: 200px;
-    margin-left:100px;
+    margin-left:10vw;
     margin-bottom:15px;
     border-radius: 50%;
     border-top:4px solid;
@@ -129,7 +134,7 @@ a {
 .img_servicio {
     width: 200px; 
     height: 200px;
-    margin-left:130px;
+    margin-left:10vw;
     margin-bottom:15px;
     border-radius: 50%;
     border-top:4px solid;
@@ -137,10 +142,16 @@ a {
     border-color:black;
 }
 
+.img_servicio:hover {
+    width: 230px;
+    height: 230px;
+    transition: all 0.8s;
+}
+
 .img_catalogo {
     width: 200px; 
     height: 200px;
-    margin-left:130px;
+    margin-left:10vw;
     margin-bottom:15px;
     border-radius: 50%;
     border-top:4px solid;
@@ -157,17 +168,10 @@ a {
     color: #999;
     margin-top: 100px;
     bottom: 0;
+    min-height: calc(100vh - 100px - 300)
     
 }
 
-@media screen and (max-width: 768px) {
-    
-
-}
-
-/*.cabeza_formulario {
-    margin-left:12em;
-}*/
 
 .letra_blanca{
     font-size: 2rem;
@@ -251,14 +255,14 @@ textarea {
     display:none;
 }
 
-@media only screen and (max-width: 500px){
+/*@media only screen and (max-width: 500px){
     #menu ul {
         display: block;
     }
     
-}
+}*/
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 768px){
     .grid-container {
         display: block;
     }
@@ -350,6 +354,12 @@ textarea {
     width: 16vw;
 }
 
+.imagen-catalogo:hover {
+    width: 18vw;
+    transition: all 0.8s;
+    
+}
+
 .descripcion-catalogo {
     font-size: 2vw;
     color:rgb(190, 190, 190);
@@ -371,6 +381,9 @@ textarea {
     }
     .t2, .t3 {
         margin-right: 30px;
+    }
+    .img_servicio, .img_producto, .img_catalogo {
+        margin-left:30%
     }
 }
 
@@ -402,3 +415,72 @@ textarea {
     font-size: 2.5em;
     text-align: right;
 }
+
+.servicios--camaras {
+    float: left;
+    
+    
+}
+
+.descripcion-servicios {
+
+    
+}
+
+.menu1 {
+        font-size: 4vw;
+        text-shadow:rgb(236, 9, 9) 0.1em 0.1em 0.2em;
+        color:black;
+}
+    
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@500&family=Open+Sans&family=Rubik+Glitch&display=swap');
+
+
+.menu--phone {
+    display:none;
+}
+.Navigation2 {
+    display:none;
+}
+
+.color--menu--phone {
+    color:black;
+}
+
+@media (max-width: 768px) {
+    .container{ 
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .t1 {
+        display: inline-block;
+    }
+    .t2, .t3 {
+        margin-right: 30px;
+    }
+    .map {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    #menu {
+        display:none;
+    }
+    .menu--phone {
+        display:block;
+        list-style: none;
+        text-align: center;
+        font-size:2rem;
+        margin-bottom: 10px;
+    }
+    
+    li:hover>ul {
+        display:block;
+        transition: all 2.8s;
+    }
+
+    .title-index {
+        margin-bottom:5px;
+    }
+}
+
