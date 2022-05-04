@@ -469,18 +469,25 @@ textarea {
     .menu--phone {
         display:block;
         list-style: none;
-        text-align: center;
-        font-size:2rem;
+        text-align: left;
+        font-size:2em;
         margin-bottom: 10px;
+        
     }
     
     li:hover>ul {
         display:block;
-        transition: all 2.8s;
+        
     }
+    
+    
 
     .title-index {
         margin-bottom:5px;
+    }
+
+    .nav__li2 {
+        padding-left:30px;
     }
 }
 
