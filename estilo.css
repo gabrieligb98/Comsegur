@@ -1,9 +1,10 @@
+/*                Generales              */ 
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    /*font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-*/}
+    }
 
 body { 
     background-color: rgb(104, 100, 100);
@@ -16,7 +17,21 @@ body {
 
 a {
     text-decoration: none;
+    color:white;
 }
+
+a:hover {
+    color:#bd1e3e;
+}
+
+
+
+
+/*                      Encabezado                                               */
+
+
+
+
 
 
 .texto {
@@ -34,9 +49,6 @@ a {
     margin-bottom: 50px;
 }
 
-a:hover {
-    color:#bd1e3e;
-}
 
 #menu {
     /* background-color: rgb(61, 59, 59); */
@@ -74,12 +86,7 @@ a:hover {
 #menu ul li a:hover{
     background-color: rgb(236, 9, 9);
     border-radius:105px ;
-    
 }
-
-/*.derecha {
-    margin-left:auto ;
-}*/
 
 .titulo2 {
     font-size: 7vw;
@@ -169,36 +176,26 @@ a:hover {
     border-color:black;
 }
 
-a {
-    color:white;
-}
-
 .pie {
     text-align: center;
     color: #999;
     margin-top: 4rem;
-    bottom: 0;
-
-    
+    bottom: 0;    
 }
-
 
 .letra_blanca{
     font-size: 2rem;
     display:block;
     text-align: center;
-
 }
 
 .letra_blanca1{
-
     font-size: 2rem;
     display:block;
     text-align:center;
 }
 
 .letra_blanca2{
-
     font-size: 2rem;   
     display:block;
     text-align:center;
@@ -298,9 +295,6 @@ textarea {
     margin-bottom: 50px;
 }
 
-
-
-
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -321,9 +315,8 @@ textarea {
     height:200px;
     width: 200px;
     transition: height 2s, width 2s,transform 2s;
-    /*background-color: #5e1322;*/
-    position:relative;
-    left:40vw;
+    margin:0 auto;
+    
 }
 
 .transition:hover {
@@ -333,7 +326,15 @@ textarea {
 
 }
 
+
+
+
+
 /* PAGINA ARTICULO */
+
+
+
+
 
 .catalogo-h2 {
     text-align:center;
@@ -356,6 +357,11 @@ textarea {
     text-align: center;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .imagen-catalogo{
     border-radius: 50px;
     margin-top: 20px;
@@ -365,7 +371,6 @@ textarea {
 .imagen-catalogo:hover {
     width: 18vw;
     transition: all 0.8s;
-    
 }
 
 .descripcion-catalogo {
@@ -375,10 +380,13 @@ textarea {
     margin-left: 2vw;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
+/*                              Aca termina Articulo                          */
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     .container{ 
