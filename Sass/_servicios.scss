@@ -1,0 +1,62 @@
+.title__servicios {
+    text-align: center;
+    color:$primary-color;
+    margin-bottom: 50px;
+}
+.transition {
+    height:200px;
+    width: 200px;
+    transition: height 2s, width 2s,transform 2s;
+    margin:0 auto;
+}
+.transition:hover {
+    height:300px;
+    width: 250px;
+    transform:rotate(360deg);
+}
+.descripcion__servicios {
+    display: flex;   
+    flex-direction: column;
+}
+
+.descripcion__servicios-titulo {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom:2em;
+    color:#bd1e3e;
+}
+
+.descripcion__servicios__contenido {
+    display: flex;
+    padding: 0px 3rem;
+}
+
+.descripcion__servicios-camara{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#0c0c0c;
+    font-size: 1em;
+    line-height: 2;
+    text-align: justify;
+}
+
+.descripcion__servicios__contenido-img {
+    border-radius: 100px;
+    margin-right: 1em;
+    width: 300px;
+    height: 450px;
+}
+
+.descripcion__servicios__contenido-img-2{
+    border-radius: 100px;
+    margin-right: 1em;
+    width: 250px;
+    height: 400px;
+}
+
+.descripcion__servicios-fondo {
+    background-color:#ffffff3f;
+    border-radius: 5px;
+    padding:10px;
+}
+
+

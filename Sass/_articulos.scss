@@ -1,0 +1,44 @@
+
+.catalogo_h2 {
+    text-align:center;
+    font-size: 3rem;
+    color:#c5c190;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-style: oblique;
+}
+
+.cctv {
+    font-size: 2rem;
+    letter-spacing:3px;
+    text-indent:3rem;
+    color:#bebebe;
+    text-decoration: underline;
+    text-decoration-color: #c5c190;   
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.imagen_catalogo{
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 16vw;
+}
+
+.imagen_catalogo:hover {
+    width: 18vw;
+    transition: all 0.8s;
+}
+
+.descripcion__catalogo {
+    font-size: 2vw;
+    color:#bebebe;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vw;
+}

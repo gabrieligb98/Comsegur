@@ -1,0 +1,17 @@
+// Variables y Global
+@import "./Sass/variables";
+@import "./Sass/global";
+@import "./Sass/mixin";
+@import "./Sass/extend";
+
+// Scss de cada página
+@import "./Sass/menu"; 
+@import "./Sass/menuresponsive";
+@import "./Sass/inicio";
+@import "./Sass/footer";
+@import "./Sass/nosotros";
+@import "./Sass/articulos";
+@import "./Sass/servicios";
+@import "./sass/contacto";
+@import "./Sass/medias";
+

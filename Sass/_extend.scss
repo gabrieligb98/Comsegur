@@ -1,0 +1,47 @@
+
+/*                 EXTEND         */
+
+
+
+
+.img_producto {
+    width: 200px; 
+    height: 200px;
+    margin-left:10vw;
+    margin-bottom:15px;
+    border-radius: 50%;
+    border-top:4px solid;
+    border-bottom:4px solid;
+    border-color:black;
+}
+
+.img_servicio {
+    @extend .img_producto;
+}
+
+.img_servicio:hover {
+    width: 230px;
+    height: 230px;
+    transition: all 0.8s;
+}
+.img_catalogo {
+    @extend .img_producto;
+}
+.img_catalogo:hover {
+    width: 230px;
+    height: 230px;
+    transition: all 0.8s;
+}
+
+.btn{
+    padding:10px;
+    border: none;
+    background-color:#e01231;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.btn__reset {
+    @extend.btn;
+    background-color:#f5f5dc;
+}

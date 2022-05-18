@@ -1,0 +1,47 @@
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+
+
+.img_producto {
+    @include sizes (200px, 200px);
+    margin-left:10vw;
+    margin-bottom:15px;
+    border-radius: 50%;
+    border-top:4px solid;
+    border-bottom:4px solid;
+    border-color:black;
+}
+
+
+.img_servicio {
+    @include sizes (200px, 200px);
+    margin-left:10vw;
+    margin-bottom:15px;
+    border-radius: 50%;
+    border-top:4px solid;
+    border-bottom:4px solid;
+    border-color:black;
+}
+
+.img_servicio:hover {
+    width: 230px;
+    height: 230px;
+    transition: all 0.8s;
+}
+.img_catalogo {
+    @include sizes (200px, 200px);
+    margin-left:10vw;
+    margin-bottom:15px;
+    border-radius: 50%;
+    border-top:4px solid;
+    border-bottom:4px solid;
+    border-color:black;
+}
+.img_catalogo:hover {
+    width: 230px;
+    height: 230px;
+    transition: all 0.8s;
+}
