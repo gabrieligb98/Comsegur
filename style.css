@@ -2,6 +2,8 @@
 /* variables de tamaño */
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@500&family=Open+Sans&family=Rubik+Glitch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@500&family=Open+Sans&family=Rubik+Glitch&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +12,7 @@
 }
 
 body {
-  background: url('./../img/foto camara.png');
-  /* background-color: rgb(104, 100, 100);*/
+  background: url('../img/fondo.png;');
   background-repeat: no-repeat;
   background-size: cover;
   width: 95%;
@@ -25,13 +26,6 @@ a {
 
 a:hover {
   color: #bd1e3e;
-}
-
-.destacados__1 {
-  color: #f5f5dc;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-left: 50px;
 }
 
 .img_producto, .img_servicio, .img_catalogo {
@@ -191,7 +185,7 @@ a:hover {
 }
 
 .menu__phone-color {
-  color: black;
+  color: #000000;
 }
 
 .titulo2 {
